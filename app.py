@@ -111,6 +111,6 @@ if st.button("🔮 Predict Churn"):
     prediction = pipeline.predict(input_df)
 
     if prediction[0] == 1:
-        st.subheader("❌ Prediction: Customer is likely to CHURN (leave).")
+        st.subheader("  Customer is likely to CHURN (leave).")
     else:
-        st.subheader("✅ Prediction: Customer is likely to STAY.")
+        st.subheader(" Customer is likely to STAY.")
